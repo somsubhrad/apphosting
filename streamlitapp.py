@@ -15,5 +15,5 @@ y = st.number_input("Enter the second number: ")
 z = st.number_input("Enter the third number: ")
 
 if st.button("Compute the largest number"):
-    result = find_largest(x, y, z)
+    result = largest_num(x, y, z)
     st.write("The largest number among the three provided inputs is:", result)
